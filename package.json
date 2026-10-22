@@ -4,6 +4,9 @@
   "description": "Vendor logos, lifecycle-state glyphs, workspace grouping and a path tab-bar for the Herdr sidebar.",
   "license": "MIT",
   "private": true,
+  "volta": {
+    "node": "22.23.4"
+  },
   "engines": {
     "node": ">=18"
   },
