@@ -32,7 +32,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version-file: package.json
       - run: npm ci
       # The invariants: identity declarations, every script parses, the tab-bar
       # poll interval stays above its timeout, sidebar inks clear a contrast
